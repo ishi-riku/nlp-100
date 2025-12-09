@@ -1,0 +1,25 @@
+単語ベクトルファイル 'GoogleNews-vectors-negative300.bin.gz' のロード中
+モデルのロードが完了しました。
+----------------------------------------
+一般名に絞り込み、抽出された国名: 198 個
+データシェイプ: (198, 300)
+----------------------------------------
+k-meansクラスタリング (k=5) を実行中
+
+k-means クラスタリング結果 (K=5)
+----------------------------------------
+**クラスタ 0 (44 項目)**:
+  Gambia, Somalia, Sudan, Djibouti, Niger, Comoros, Burkina_Faso, Kenya, Western_Sahara, Benin, South_Africa, Lesotho, Cameroon, Togo, Equatorial_Guinea, Zimbabwe, Senegal, Mozambique, Uganda, Mali, Ghana, Burundi, Gabon, Rwanda, Yemen, Nigeria, Algeria, Seychelles, Egypt, Congo, Namibia, Madagascar, Mauritania, Liberia, Botswana, Ethiopia, Eritrea, Zambia, Sierra_Leone, Malawi, Angola, Tunisia, Libya, Guinea
+----------------------------------------
+**クラスタ 1 (46 項目)**:
+  Maldives, Kuwait, Niue, Viet_Nam, Bhutan, Oman, Malaysia, Mauritius, Tokelau, Nepal, Qatar, Myanmar, French_Polynesia, Cook_Islands, Guam, New_Zealand, China, Singapore, Nauru, Marshall_Islands, Thailand, Mongolia, Saudi_Arabia, Kiribati, Solomon_Islands, Bahrain, Brunei_Darussalam, Tuvalu, Samoa, India, Vanuatu, Fiji, Northern_Mariana_Islands, Bangladesh, Japan, Palau, Cambodia, Australia, Philippines, Tonga, Hong_Kong, Sri_Lanka, Macao, United_Arab_Emirates, Indonesia, Pakistan
+----------------------------------------
+**クラスタ 2 (31 項目)**:
+  Iceland, Monaco, Netherlands, Montenegro, Denmark, Portugal, Åland_Islands, Brazil, Luxembourg, Uruguay, Finland, France, Paraguay, Cyprus, Belgium, San_Marino, Andorra, Spain, Norway, Germany, Argentina, Morocco, Ireland, Italy, Türkiye, Liechtenstein, Austria, Sweden, Malta, Faroe_Islands, Switzerland
+----------------------------------------
+**クラスタ 3 (24 項目)**:
+  Azerbaijan, Turkmenistan, Greece, Czechia, Hungary, Tajikistan, Latvia, Kazakhstan, Estonia, Ukraine, Bulgaria, Poland, Uzbekistan, Serbia, Belarus, Kyrgyzstan, Georgia, Armenia, Slovakia, Albania, Slovenia, Croatia, Romania, Lithuania
+----------------------------------------
+**クラスタ 4 (53 項目)**:
+  Bermuda, Aruba, Honduras, Barbados, United_Kingdom, Pitcairn, Afghanistan, Montserrat, Colombia, Bahamas, Israel, Jordan, Dominica, Cabo_Verde, Ecuador, Guyana, Panama, Suriname, Guatemala, Nicaragua, Mexico, Saint_Lucia, Peru, Grenada, Dominican_Republic, Puerto_Rico, Iraq, Martinique, Guadeloupe, Belize, Guernsey, Mayotte, Curaçao, Jersey, United_States, Lebanon, Gibraltar, Antarctica, Bouvet_Island, Chile, Greenland, Cuba, Cayman_Islands, Haiti, Réunion, El_Salvador, Saint_Barthélemy, Chad, Jamaica, French_Guiana, Anguilla, Canada, Costa_Rica
+----------------------------------------
