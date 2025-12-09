@@ -1,2 +1,5 @@
 # .gitignore ファイルに追加
 .env
+
+# Word2Vecモデルファイルを除外
+GoogleNews-vectors-negative300.bin.gz
