@@ -1,0 +1,5 @@
+--- 検証データの最初の事例の条件付き確率 ---
+事例テキスト: it 's a charming and often affecting journey . 
+真のラベル: 1
+P(ネガティブ | x) = P(y=0 | x): 0.0027
+P(ポジティブ | x) = P(y=1 | x): 0.9973
