@@ -5,7 +5,7 @@ def run_qwen_session():
     # 1. モデル
     model_id = "Qwen/Qwen2.5-3B-Instruct"
     
-    print("モデルを読み込んでいます。数分かかる場合があります...")
+    print("モデルを読み込んでいます。")
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     model = AutoModelForCausalLM.from_pretrained(
         model_id, 
@@ -13,7 +13,7 @@ def run_qwen_session():
         device_map="auto"
     )
 
-    # 2. 会話履歴の設定
+    # 2. 設定
     messages = [
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": "What do you call a sweet eaten after dinner?"},
