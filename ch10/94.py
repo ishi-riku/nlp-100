@@ -2,12 +2,12 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 def run_chat_session():
-    # 1. モデルの準備 (GPT型の代表的なオープンモデル TinyLlama を使用)
+    # 1. モデルの準備 (GPT型のオープンモデル TinyLlama を使用)
     model_id = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.float16, device_map="auto")
 
-    # 2. メッセージ設定 (この辞書形式がチャットテンプレートの入力になる)
+    # 2. 設定 (この辞書形式が入力になる)
     messages = [
         {"role": "system", "content": "You are a concise assistant."},
         {"role": "user", "content": "What do you call a sweet eaten after dinner?"}
@@ -18,7 +18,7 @@ def run_chat_session():
     # add_generation_prompt=True で「Assistant: 」という返信の合図を末尾に追加する
     prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     
-    print(f"--- 実際にモデルに渡されるプロンプト ---\n{prompt}\n")
+    print(f"--- モデルに渡されるプロンプト ---\n{prompt}\n")
 
     # 4. 生成実行 (プロンプトをID化してモデルに入力)
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
