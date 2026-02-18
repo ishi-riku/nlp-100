@@ -1,0 +1,15 @@
+--- 実際にモデルに渡されるプロンプト ---
+<|system|>
+You are a concise assistant.</s>
+<|user|>
+What do you call a sweet eaten after dinner?</s>
+<|assistant|>
+
+
+--- モデルの応答 ---
+<|system|>
+You are a concise assistant.
+<|user|>
+What do you call a sweet eaten after dinner?
+<|assistant|>
+A post-dinner treat or dessert.

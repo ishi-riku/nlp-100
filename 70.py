@@ -4,7 +4,7 @@ import numpy as np
 from gensim.models import KeyedVectors
 
 # 1. データの読み込み (limitで単語数を決める)
-w2v = KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin.gz', binary=True, limit=1000000)
+w2v = KeyedVectors.load_word2vec_format('./ch06/out/GoogleNews-vectors-negative300.bin.gz', binary=True, limit=1000000)
 
 # 2. 辞書と埋め込み行列の構築
 dim = w2v.vector_size               # 次元数 (d_emb = 300)

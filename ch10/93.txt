@@ -1,0 +1,4 @@
+PPL:  99.35 | 文: The movie was full of surprises
+PPL: 126.48 | 文: The movies were full of surprises
+PPL: 278.88 | 文: The movie were full of surprises
+PPL: 274.66 | 文: The movies was full of surprises

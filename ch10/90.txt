@@ -1,0 +1,12 @@
+Tokens: ['The', ' movie', ' was', ' full', ' of']
+
+1: ' jokes' (2.19%)
+2: ' great' (1.86%)
+3: ' laughs' (1.15%)
+4: ' bad' (1.09%)
+5: ' surprises' (1.07%)
+6: ' references' (1.05%)
+7: ' fun' (1.00%)
+8: ' humor' (0.74%)
+9: ' "' (0.74%)
+10: ' the' (0.67%)
