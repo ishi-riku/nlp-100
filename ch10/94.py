@@ -18,7 +18,7 @@ def run_chat_session():
     # add_generation_prompt=True で「Assistant: 」という返信の合図を末尾に追加する
     prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     
-    print(f"--- モデルに渡されるプロンプト ---\n{prompt}\n")
+    print(f"--- プロンプト ---\n{prompt}\n")
 
     # 4. 生成実行 (プロンプトをID化してモデルに入力)
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
