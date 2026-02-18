@@ -13,7 +13,7 @@ def run_chat_session():
         {"role": "user", "content": "What do you call a sweet eaten after dinner?"}
     ]
 
-    # 3. チャットテンプレートの適用
+    # 3. プロンプトの構築
     # tokenize=False で、モデルに送られる直前の生の文字列を確認できる
     # add_generation_prompt=True で「Assistant: 」という返信の合図を末尾に追加する
     prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
